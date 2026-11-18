@@ -6,10 +6,34 @@
   },
   "servers": [
     {
-      "url": "http://localhost:5264"
+      "url": "http://localhost:5127"
     }
   ],
   "paths": {
+    "/ping": {
+      "get": {
+        "tags": [
+          "Model1"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "pattern": "^-?(?:0|[1-9]\\d*)$",
+                  "type": [
+                    "integer",
+                    "string"
+                  ],
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -86,6 +110,9 @@
     }
   },
   "tags": [
+    {
+      "name": "Model1"
+    },
     {
       "name": "WeatherForecast"
     }
