@@ -199,3 +199,5 @@ D:\SIT11\API\Model1\bin\Debug\net10.0\runtimes\osx-x64\native\msalruntime.dylib
 D:\SIT11\API\Model1\bin\Debug\net10.0\runtimes\win-arm64\native\msalruntime_arm64.dll
 D:\SIT11\API\Model1\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
 D:\SIT11\API\Model1\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
+D:\SIT11\API\Model1\bin\Debug\net10.0\System.Security.Cryptography.Pkcs.dll
+D:\SIT11\API\Model1\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll
